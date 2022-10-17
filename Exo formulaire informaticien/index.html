@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche emploi informaticien</title>
+</head>
+<body>
+
+    <form action="">
+
+        <label for="name">Nom : </label>
+        <input type="text">
+
+        <br><br>
+
+        <label for="prenom">Prénom : </label>
+        <input type="text">
+
+        <br><br>
+
+        <label for="email">E-Mail : </label>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+
+        <label for="sexe">Sexe : </label>
+        <input type="radio" name="sexe" id="sexe">Féminin
+        <input type="radio" name="sexe" id="sexe">Masculin
+
+        <br><br>
+
+    </form>
+
+        <form action="" enctype="multipart/form-data" method="post">
+
+        <input type="file" name="photo" id="photo" accept=".png, .jpg" title="Seulement .png et .jpg">
+
+    </form>
+
+    <br><br>
+
+    <form action="">
+
+        <label for="pays">Pays d'origine :</label>
+
+        <select name="pays" id="pays">
+
+            <option value="france">France</option>
+            <option value="angleterre">Angleterre</option>
+            <option value="allemagne">Allemagne</option>
+
+        </select>
+
+        <br><br>
+
+        <h1>France : </h1>
+
+        <label for="langue">Langage préféré : </label>
+
+        <input type="checkbox" name="francais" id="langue">français
+        <input type="checkbox" name="anglais" id="langue">anglais
+        <input type="checkbox" name="allemand" id="langue">allemand
+
+        <h1>Angleterre : </h1>
+
+        <label for="langue">Langage préféré : </label>
+
+        <input type="checkbox" name="francais" id="langue">français
+        <input type="checkbox" name="anglais" id="langue">anglais
+        <input type="checkbox" name="allemand" id="langue">allemand
+
+        <h1>Allemagne : </h1>
+
+        <label for="langue">Langage préféré : </label>
+
+        <input type="checkbox" name="francais" id="langue">français
+        <input type="checkbox" name="anglais" id="langue">anglais
+        <input type="checkbox" name="allemand" id="langue">allemand
+
+    </form>
+    
+</body>
+</html>
